@@ -1,0 +1,1 @@
+This repository demonstrates a common yet subtle error in VBScript: an unexpected type mismatch. The `MyFunction` subroutine attempts to check for an empty string, but the comparison might fail if `param1` is not a string, resulting in a misleading "Type mismatch" error. The solution involves robust type checking before comparisons or using error handling to provide more context.
